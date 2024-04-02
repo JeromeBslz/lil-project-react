@@ -1,5 +1,5 @@
 
-function ClassCard ({name, text, imgSrc }){
+function ClassCard ({name, text, image }){
     return(
         <div>
             <h2>{name}</h2>
