@@ -8,12 +8,41 @@
 * {
   margin: 0;
   font-family: var(--primary-font);
-  opacity: 1;
 }
 
 body {
   background-image: url("assets/main-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  background-position: fixed;
+}
+
+h1 {
+  text-align: center;
+  padding: 70px;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px;
+}
+
+h3 {
+  margin: 20px;
+}
+
+p {
+  margin: 20px;
+  line-height: 1.5;
+}
+
+li {
+  list-style: none;
+}
+
+.accueil {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 700px;
 }

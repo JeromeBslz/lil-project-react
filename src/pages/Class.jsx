@@ -1,5 +1,5 @@
 function Class() {
-	return <h2>Hello</h2>;
+	return <h2>Classe</h2>;
 }
 
 export default Class;
