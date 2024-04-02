@@ -1,4 +1,4 @@
-import bossArray from 'Boss.js';
+import bossArray from '../boss';
 
 function Boss() {
 	return (

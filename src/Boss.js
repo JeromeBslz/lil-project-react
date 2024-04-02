@@ -1,4 +1,4 @@
-const bossArray = [
+export const bossArray = [
 	{
 		title: 'Margit le déchu',
 		description:

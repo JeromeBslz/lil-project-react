@@ -1,14 +1,8 @@
-import './App.css';
+import React from 'react';
 import NavBar from './components/NavBar';
-import BossCard from './components/BossCard.jsx';
-import bossArray from './Boss.js';
 
 function App() {
-	return (
-		<div>
-			<NavBar />
-		</div>
-	);
+	return <h1>Bienvenue !</h1>;
 }
 
 export default App;

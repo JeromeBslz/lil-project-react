@@ -1,4 +1,4 @@
-const weaponArray = [
+export const weaponArray = [
 	{
 		title: '',
 		image: '',
