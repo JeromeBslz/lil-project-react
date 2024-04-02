@@ -4,7 +4,7 @@ function Boss() {
 	return (
 		<div>
 			{bossArray.map((boss, index) => (
-				<BossCard
+				<div
 					key={index}
 					title={boss.title}
 					description={boss.description}

@@ -7,16 +7,20 @@ function NavBar() {
 			<nav>
 				<ul>
 					<li>
-						<Link to="/classe">Classes</Link>
+						<Link to={'/'}>Accueil</Link>
 					</li>
 					<li>
-						<Link to="/equipement">Equipement</Link>
+						<Link to={'/classe'}>Classes</Link>
 					</li>
 					<li>
-						<Link to="/boss">Boss</Link>
+						<Link to={'/equipement'}>Equipement</Link>
+					</li>
+					<li>
+						<Link to={'/boss'}>Boss</Link>
 					</li>
 				</ul>
 			</nav>
+			<Outlet />
 		</>
 	);
 }

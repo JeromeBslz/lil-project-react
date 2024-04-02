@@ -4,7 +4,7 @@ function Weapon() {
 	return (
 		<div>
 			{weaponArray.map((weapon, index) => (
-				<Weapon
+				<div
 					key={index}
 					title={weapon.title}
 					description={weapon.description}
