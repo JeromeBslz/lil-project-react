@@ -10,7 +10,7 @@ function App() {
 				<p>
 					Ici, vous, pourrez retrouver toutes les informations pour le nouveau
 					titre From Software développé en collaboration avec Bandai Namco et
-					George R. R. Martin, l'auteur de Game Of Throne
+					George R. R. Martin, l'auteur de Game Of Throne.
 				</p>
 			</div>
 		</div>
