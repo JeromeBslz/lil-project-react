@@ -14,18 +14,11 @@ body {
   background-image: url("assets/main-background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
+  display: flex; 
+  flex-direction: column;
 }
-@media screen and (min-height: 100vh) {
-  body {
-    min-height: 100vh;
-    display: flex; 
-    flex-direction: column; 
-  }
 
-  .content {
-    flex: 1;
-  }
-}
 h1 {
   text-align: center;
   padding: 70px;
