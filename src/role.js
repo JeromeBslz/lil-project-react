@@ -1,4 +1,4 @@
-export const classArray = [
+export const roleArray = [
     {
         name: "Héro",
         text: "Avec 16 en Force, 14 en Vigueur et 12 en Endurance, le héro est la classe idéale si vous souhaitez commencer le jeu sans vous prendre trop la tête avec tout ce qui est magie, incantation ou autre et que tout ce qui vous intéresse, c’est taper comme un sourd sans être trop vulnérable. C’est effectivement la classe avec la stat de Force la plus élevée, et la seconde stat de Vigueur la plus élevée, ce qui vous permettra de faire de bons dégâts tout en ayant une certaine survivabilité si vous prenez des coups. ",
@@ -51,3 +51,4 @@ export const classArray = [
 
     }
 ]
+export default roleArray;

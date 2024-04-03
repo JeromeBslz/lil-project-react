@@ -1,5 +1,5 @@
 
-function ClassCard ({name, text, image }){
+function RoleCard ({name, text, image }){
     return(
         <div>
             <h2>{name}</h2>
@@ -10,4 +10,4 @@ function ClassCard ({name, text, image }){
     )
 }
 
-export default ClassCard;
+export default RoleCard;
