@@ -31,6 +31,38 @@ export const bossArray = [
 		reward:
 			"En plus du Trophée particulièrement satisfaisant à recevoir, vous allez obtenir la Rune majeure de Malenia. Elle est restaurée à la tour divine isolée, au milieu de l'océan. Il faut emprunter le téléporteur situé au sud de la capitale. Si vous avez déjà embrasé l'arbre-monde, le seul moyen d'atteindre les lieux est d'utiliser le coffre piégé de la Tour du retour, à la pointe Sud-ouest de la Péninsule larmoyante, en Nécrolimbe. Les effets de cette rune sont similaires aux soins de combat de Bloodborne : attaquer un ennemi après avoir subi des dégâts permet de vous soigner. En contrepartie, elle va réduire l'effet de vos fioles de soin.",
 	},
+	{
+		title: 'Rennala, reine de la pleine lune',
+		description:
+			"Elden Ring est plein de personnages tragiques, Rennala est une des personnes qui a le plus souffert. Abandonnée par son époux qui est parti se mettre en couple avec Marika pour devenir Seigneur d'Elden, elle a été enfermée dans sa tour avec un œuf contenant sa rune majeure, qu'elle traite comme l'enfant qu'elle n'a jamais eu (ou qu'elle a perdu ?). Elle semble a présent avoir perdu l'esprit, et cela va être à vous de lui remettre les idées en place à grand coup d'épée dans la g*****, ou avec des armes et sorts de votre choix si vous préférez. Nous allons vous y aider.",
+		image: './src/assets/rennala.webp',
+		reward:
+			"Vous allez obtenir la Rune majeure de renaissance, ce qui vous permettra de vous respécialiser auprès de Rennala en échange d'un consommable spécial. Il n'y a pas besoin de restaurer cette rune, contrairement à celle de Godrick le greffé.",
+	},
+	{
+		title: 'Morgott roi des réprouvés',
+		description:
+			"Elden Ring vous réserve plein de surprises, et voir la tête du 'roi' Morgott en est certainement une. Mais quand on sait qu'il y a un lien de parenté entre lui et Margit le déchu, cela semble tout de suite un peu plus logique. Il vous faudra normalement avoir rassemblé 2 Runes majeures avant de pouvoir vous frotter à lui, le plus simple étant d'avoir tué Godrick et Rennala, mais on vous conseille aussi d'être allé dire bonjour à Radahn.",
+		image: './src/assets/morgott.webp',
+		reward:
+			"Vous allez obtenir la Rune majeure de Morgott, qui augmente grandement la vie maximale. Le boss laisse aussi son souvenir, qui permet d'acheter des objets très intéressants à la Table ronde, comme son épée chromatique. Pensez aussi à consulter la marchande des deux doigts, elle propose de nouveaux objets et des pièces d'armure intéressantes.",
+	},
+	{
+		title: 'Gargouilles vaillantes',
+		description:
+			"Affronter plusieurs gargouilles insupportables est devenu une sorte de rituel de passage dans les jeux du studio. Ce n'est pas Elden Ring qui va mettre un terme à cette coutume, bien au contraire, avec 2 gargouilles bien plus pénibles que dans les jeux précédents. La seule consolation qui peut être trouvée dans le cas présent est qu'il n'y a pas de vide dans lequel tomber. C'est déjà ça.",
+		image: './src/assets/gargouilles-vaillantes.webp',
+		reward:
+			"Vous allez obtenir un Trophée, ainsi que deux armes, celle de chacune des deux gargouilles, l'Espadon de gargouille et la Lame double de gargouille. Mais la véritable récompense de ce combat est la possibilité de faire usage du cercueil de pierre au fond de la salle. Il vous emmènera directement dans une nouvelle zone souterraine, les Profondeurs de Fonderacines. Il vous faudra explorer la zone pour poursuivre les quêtes de Ranni, de Fia et d'autres.",
+	},
+	{
+		title: "Radagon de l'ordre d'or & la bête",
+		description:
+			"En fonction de votre niveau de jeu et de votre build, la fin d'Elden Ring peut sembler interminable avec tous ses boss difficiles qui s'enchaînent. Mais ça y est, voici le tout dernier combat, avec des musiques absolument fantastiques pour accompagner le grand combat final contre Radagon, le second seigneur d'Elden, qui semble aussi être la déesse Marika en même temps, puis la conclusion onirique face à la Bête d'Elden, la vassale de la volonté suprême, la divinité extérieure qui règne actuellement sur l'Entre-terre.",
+		image: './src/assets/radagon.webp',
+		reward:
+			"En plus d'une tonne de runes, 500 000 par défaut, vous allez obtenir le souvenir d'Elden, échangeable contre des armes à la Table ronde. Il n'y a cependant pas de Trophée cette fois, cela va venir avec l'étape suivante.",
+	},
 ];
 
 export default bossArray;

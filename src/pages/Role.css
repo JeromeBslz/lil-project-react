@@ -7,19 +7,18 @@
 }
 
 .role-card img {
-    width: 50%;
-    height: auto;
-    padding: 20px;
+    height: 372px;
+    padding: 10px;
 }
 
 .image-and-stats li {
     list-style: circle;
-    align-items: center;
 }
 
 .image-and-stats {
     display: flex;
     align-items: center;
+    justify-content: center;
     line-height: 2;
 }
 
