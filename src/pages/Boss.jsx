@@ -9,7 +9,7 @@ function Boss() {
 				{bossArray.map((boss, index) => (
 					<div key={index} className="boss-card">
 						<h3>{boss.title}</h3>
-						<img src={boss.image} alt="" />
+						<img src={boss.image} alt={boss.title} />
 						<p>{boss.description}</p>
 					</div>
 				))}

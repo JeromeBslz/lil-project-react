@@ -3,14 +3,7 @@
     border-radius: 10px;
     width: 95%;
     max-width: 1000px;
-    margin: 0 auto;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    color: var(--light-color);
+    margin: 10px;
 }
 
 .weapon-card img {
@@ -19,7 +12,8 @@
     padding: 20px;
     display: block;
     margin: 0 auto;
-    align-items: center;
     border-radius: 30px;
 }
+
+
 

@@ -9,7 +9,7 @@ function Weapon() {
 				{weaponArray.map((weapon, index) => (
 					<div key={index} className="weapon-card">
 						<h3>{weapon.title}</h3>
-						<img src={weapon.image} alt="" />
+						<img src={weapon.image} alt={weapon.title} />
 						<p>{weapon.description}</p>
 					</div>
 				))}
