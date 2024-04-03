@@ -6,19 +6,23 @@
     margin: 0 auto;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    color: var(--light-color);
-}
-
 .role-card img {
-    width: 70%;
+    width: 50%;
     height: auto;
     padding: 20px;
-    display: block;
-    margin: 0 auto;
+}
+
+.image-and-stats li {
+    list-style: circle;
     align-items: center;
-    border-radius: 30px;
+}
+
+.image-and-stats {
+    display: flex;
+    align-items: center;
+    line-height: 2;
+}
+
+li:first-child {
+    list-style: none;
 }
